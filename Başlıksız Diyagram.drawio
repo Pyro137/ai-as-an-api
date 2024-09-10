@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1655" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2150" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,8 +57,95 @@
             <mxPoint x="395" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="88kTMUxLlJesJ4MJ3Yru-3" value="Split data set into test and training" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="88kTMUxLlJesJ4MJ3Yru-3" target="kbv-L3YqnKTTZ1fYqtzM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="88kTMUxLlJesJ4MJ3Yru-3" value="Split data set into test and training" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="660" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-1" target="kbv-L3YqnKTTZ1fYqtzM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-1" value="test" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-2" target="kbv-L3YqnKTTZ1fYqtzM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="460" />
+              <mxPoint x="310" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-2" value="train" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-3" target="kbv-L3YqnKTTZ1fYqtzM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-3" value="model train" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-4" value="evaluate model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.837;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="88kTMUxLlJesJ4MJ3Yru-3" target="kbv-L3YqnKTTZ1fYqtzM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-10" target="kbv-L3YqnKTTZ1fYqtzM-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="580" />
+              <mxPoint x="110" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-10" target="kbv-L3YqnKTTZ1fYqtzM-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-10" value="save model,metadata and tokenizer in cloud&lt;div&gt;and make pipeline to make useable for everyone&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="475" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-12" target="kbv-L3YqnKTTZ1fYqtzM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-12" value="Build fastapi and set urls that we need (homepage,inferences etc.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="620" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-13" target="kbv-L3YqnKTTZ1fYqtzM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-13" value="create neccessary files and get model,metadata and tokenizor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-16" target="kbv-L3YqnKTTZ1fYqtzM-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="710" />
+              <mxPoint x="550" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-16" value="make pipeline to make predictions and is everything working well. (like are tokenizer or model causing error)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="607.5" width="135" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-19" target="kbv-L3YqnKTTZ1fYqtzM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-19" value="Create Data base (AstraDB) to keep all predictions&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-20" target="kbv-L3YqnKTTZ1fYqtzM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-20" value="create tables and connections." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-29" value="And connect all in one file as pipeline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-32" value="aws cloud&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
