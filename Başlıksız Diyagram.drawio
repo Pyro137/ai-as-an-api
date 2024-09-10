@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2150" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1500" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-2" value="collection data about problem (UCI DATASET)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="120" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="_YRfoyg79Vk_gOYzoRa0-5" target="_YRfoyg79Vk_gOYzoRa0-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -22,19 +22,14 @@
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-5" value="clean datasets from unnecessary columns and rows." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="1" vertex="1">
           <mxGeometry x="80" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_YRfoyg79Vk_gOYzoRa0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="_YRfoyg79Vk_gOYzoRa0-6" target="_YRfoyg79Vk_gOYzoRa0-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="140" y="310" />
-              <mxPoint x="140" y="310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#028090;fontColor=default;" parent="1" source="_YRfoyg79Vk_gOYzoRa0-6" target="_YRfoyg79Vk_gOYzoRa0-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-6" value="taking data and make it able to work on (unzip, merge etc.)" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kbv-L3YqnKTTZ1fYqtzM-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_YRfoyg79Vk_gOYzoRa0-7" target="88kTMUxLlJesJ4MJ3Yru-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_YRfoyg79Vk_gOYzoRa0-7" value="Vectorize data to work with neural networks&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;" parent="1" vertex="1">
           <mxGeometry x="520" y="290" width="120" height="60" as="geometry" />
@@ -60,7 +55,7 @@
         <mxCell id="kbv-L3YqnKTTZ1fYqtzM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="88kTMUxLlJesJ4MJ3Yru-3" target="kbv-L3YqnKTTZ1fYqtzM-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="88kTMUxLlJesJ4MJ3Yru-3" value="Split data set into test and training" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="88kTMUxLlJesJ4MJ3Yru-3" value="Split data set into test and training" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ff5252;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="660" y="290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kbv-L3YqnKTTZ1fYqtzM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kbv-L3YqnKTTZ1fYqtzM-1" target="kbv-L3YqnKTTZ1fYqtzM-3">
